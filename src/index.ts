@@ -1,1 +1,1 @@
-export * from './classes/test'
+export * from './classes/class'

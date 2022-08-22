@@ -1,3 +1,6 @@
+.git
+.github
 .gitignore
+.prettierrc
+jasmine.json
 tsconfig.json
-README.md
