@@ -1,0 +1,21 @@
+{
+	"name": "npm-package-template",
+	"version": "1.0.0",
+	"description": "a npm package template",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"prepare": "rm -rf lib && tsc",
+		"deploy": "npm publish",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"files": [
+		"**/*.js",
+		"**/*.d.ts"
+	],
+	"author": "eltharynd",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "^4.7.4"
+	}
+}
